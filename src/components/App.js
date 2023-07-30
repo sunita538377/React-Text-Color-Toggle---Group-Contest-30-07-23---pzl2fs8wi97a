@@ -2,10 +2,13 @@ import React, {useEffect, useState} from 'react'
 import '../styles/App.css';
 
 const App = () => {
-//code here 
+  const [togglest, settoggle]=useState("false");
+  const togglefunc= ()=>{
+    settoggle(!togglest);
+  };
   return (
     <div id="main">
-      <p className={} >Newton School</p>
+      <p className={{togglest ? styles.blueColor : styles.redColor}} >Newton School</p>
       <button id='button' onClick={}>Change Style</button>
     </div>
   )
