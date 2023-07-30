@@ -3,16 +3,13 @@ import  '../styles/App.css';
 
 const App = () => {
   
-  const [togglest, settoggle]=useState("false");
+  const [tg, settoggle]=useState(false);
   
-  const togglefunc= ()=>{
-    settoggle(!togglest);
-  };
-  
+ 
   return (
     <div id="main">
-      <p className={togglest ? ".blueColor" : ".redColor"} >Newton School</p>
-      <button id='button' onClick={togglefunc}>Change Style</button>
+      <p className={tg ? "blueColor" : "redColor"} >Newton School</p>
+      <button id='button' onClick={()=>settoggle(!tg) }>Change Style</button>
     </div>
   )
 }
