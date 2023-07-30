@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react'
-import '../styles/App.css';
+import styles from '../styles/App.css';
 
 const App = () => {
   const [togglest, settoggle]=useState("false");
