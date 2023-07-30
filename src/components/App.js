@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react'
-import styles from '../styles/App.css';
+import  '../styles/App.css';
 
 const App = () => {
   
@@ -11,7 +11,7 @@ const App = () => {
   
   return (
     <div id="main">
-      <p className={togglest ? "styles.blueColor" : "styles.redColor"} >Newton School</p>
+      <p className={togglest ? ".blueColor" : ".redColor"} >Newton School</p>
       <button id='button' onClick={togglefunc}>Change Style</button>
     </div>
   )
