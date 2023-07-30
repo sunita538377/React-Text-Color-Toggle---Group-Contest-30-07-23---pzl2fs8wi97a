@@ -8,7 +8,7 @@ const App = () => {
   };
   return (
     <div id="main">
-      <p className={{togglest ? styles.blueColor : styles.redColor}} >Newton School</p>
+      <p className={togglest ? styles.blueColor : styles.redColor} >Newton School</p>
       <button id='button' onClick={togglefunc}>Change Style</button>
     </div>
   )
