@@ -1,13 +1,13 @@
 /* code here  */
 .redColor{
-
+  font-size: 30px;
   color: red;
 
 }
 
 .blueColor{
-
-  color:blue;
   fon-style: italic;
+  font-size:30px;
+  color:blue;
 
 }
